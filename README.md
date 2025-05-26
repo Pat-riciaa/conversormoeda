@@ -1,21 +1,48 @@
 # Conversor de Moedas
 
-Projeto Spring Boot para converter moedas usando a API ExchangeRate.
+Este é um projeto simples de conversor de moedas feito com Spring Boot e Thymeleaf, consumindo a API ExchangeRate-API para fazer as conversões.
 
-## Como usar
+## Funcionalidades
 
-- Clone este repositório
-- Execute o projeto com `mvn spring-boot:run` ou no seu IDE
-- Acesse http://localhost:8080 no navegador
-- Informe as moedas e o valor para converter
+- Converter valores entre moedas diferentes
+- Interface web simples usando Thymeleaf
 
-## Tecnologias usadas
+## Como rodar o projeto
 
-- Java 17
-- Spring Boot
-- Thymeleaf
-- ExchangeRate API
+### Pré-requisitos
 
-## Autor
+- Java 17+ instalado
+- Maven instalado
+- IDE (VS Code, IntelliJ, etc.)
 
-Patricia Vieira
+### Passos para executar
+
+1. Clone o repositório:
+
+   ```bash
+   git clone https://github.com/Pat-riciaa/conversormoeda.git
+   cd conversormoeda
+
+2. Compile o projeto (opcional, mas recomendado):
+
+    mvn clean install
+
+3. Rode a aplicação Spring Boot:
+
+    mvn spring-boot:run
+
+Ou rode o arquivo JAR gerado em target:
+    
+    java -jar target/conversormoeda-0.0.1-SNAPSHOT.jar
+
+4. Abra seu navegador e acesse:
+
+    http://localhost:8080
+    
+5. Use a página para converter moedas.
+
+Sobre a API
+Este projeto utiliza a ExchangeRate-API para obter as taxas de câmbio e fazer a conversão.
+
+Contato
+Se tiver dúvidas ou sugestões, pode me contatar pelo email: patricia.vyeyra@gmail.com
